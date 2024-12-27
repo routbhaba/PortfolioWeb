@@ -1,0 +1,20 @@
+<h2>Welcom to my portfolio</h2>
+<br>
+ <div class="formbody">
+<div class="form">
+<form (ngSubmit)="onSubmit()">
+    <div class="container">
+        <label ><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" id="userName" name="userName" required (click)="removevalid()">
+        <span>{{usernamevalid}}</span>
+        <br>
+    
+        <label ><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" id="password" name="password" required>
+            
+        <button type="submit">Login</button>
+        
+      </div>
+</form>
+</div>
+</div>
