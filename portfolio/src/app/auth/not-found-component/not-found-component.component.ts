@@ -13,6 +13,6 @@ export class NotFoundComponentComponent implements OnInit {
   ngOnInit(): void {
   }
   backToHome(){
-    this.router.navigate(['./auth/login']);
+    this.router.navigate(['./home/content']);
   }
 }

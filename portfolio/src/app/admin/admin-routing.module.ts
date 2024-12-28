@@ -8,10 +8,10 @@ const routes: Routes = [
   {
      path: '', component: AdminComponent, children: [
        {
-         path: 'home', component: HomeComponent
+         path: 'content', component: HomeComponent
        },
        {
-         path: '', redirectTo: 'home', pathMatch: 'full'
+         path: '', redirectTo: 'content', pathMatch: 'full'
        }
      ]
    }
